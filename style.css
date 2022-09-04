@@ -1,0 +1,74 @@
+
+*{
+    margin-left: 10px;
+}
+body {
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(assets/images/bg01.jpg);  ;
+}
+
+
+#header {
+    color: #ffff;
+    font-size: 52px;
+    font-weight:65px;
+    font-family: Roboto, sans-serif;
+}
+
+#text {
+    color: grey;
+    font-size: 20;
+    font-weight: 26.4px;
+    font-family: Roboto, sans-serif;
+    width: 400px;
+}
+
+#email {
+    border-radius: 7px;
+    font-size: 12px;
+    border-color: grey;
+    background-color: #0000;
+    color: grey;
+    padding: 10px;
+
+}
+
+#submit {
+    border-radius: 7px;
+    font-size: 12px;
+    background-color: #1cb495;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    padding: 10px;
+    }
+
+#main {
+    height: 600px;
+    display:flex;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+    justify-content: space-between;
+    color:grey;
+    width: 100px;
+
+}
+
+#credit {
+    color: grey;
+    font-size: 10px;
+}
+
+#footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-around;
+    height: 180px;
+}
+
