@@ -3,7 +3,7 @@
     margin-left: 10px;
 }
 body {
-  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(assets/images/bg01.jpg);  ;
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(bg01.jpg);  ;
 }
 
 
