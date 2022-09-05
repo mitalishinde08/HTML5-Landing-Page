@@ -1,74 +1,93 @@
-
-*{
-    margin-left: 10px;
+* {
+    margin: 5px;
 }
+
 body {
-  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(bg01.jpg);  ;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(assets/images/bg01.jpg);
+}
+
+#main {
+    height: 80vh;
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
-#header {
+h1 {
     color: #ffff;
     font-size: 52px;
-    font-weight:65px;
     font-family: Roboto, sans-serif;
+    font-weight: 65px;
 }
 
-#text {
-    color: grey;
-    font-size: 20;
-    font-weight: 26.4px;
+p {
+    color: gray;
+    font-size: 16px;
     font-family: Roboto, sans-serif;
-    width: 400px;
+    font-weight: 26.4px;
+}
+
+ul {
+    list-style-type: none;
+    color: gray;
 }
 
 #email {
-    border-radius: 7px;
-    font-size: 12px;
-    border-color: grey;
-    background-color: #0000;
-    color: grey;
+    border-radius: 6px;
+    color: gray;
+    font-size: 15px;
+    background-color: black;
     padding: 10px;
-
+    width: 200px;
+    border: 1px solid gray;
 }
 
 #submit {
-    border-radius: 7px;
-    font-size: 12px;
-    background-color: #1cb495;
-    border: none;
-    color: #ffff;
-    font-weight: bold;
+    margin: 10px;
     padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #ffff;
+    background-color: #1cb495;
+}
+
+/* footer {
+} */
+
+ul{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+#greet {
+    display: none;
+}
+
+#greet:target {
+    display: block;
+}
+
+@media only screen and (max-width: 500px) {
+    h1,#desc {
+        display: none;
     }
 
-#main {
-    height: 600px;
-    display:flex;
-    align-items: center;
-}
+    form {
+        display: flex;
+        flex-direction: column;
+    }
 
-
-ul {
-    display: flex;
-    list-style: none;
-    align-items: flex-start;
-    justify-content: space-between;
-    color:grey;
-    width: 100px;
-
-}
-
-#credit {
-    color: grey;
-    font-size: 10px;
-}
-
-#footer {
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: space-around;
-    height: 180px;
+    #email {
+        width: auto;
+    }
 }
 
